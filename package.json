@@ -2,7 +2,8 @@
   "name": "web",
   "version": "0.0.0",
   "private": true,
-  "scripts": {    
+  "scripts": {          
+    "start": "node web/bin/www",    
     "test": "./node_modules/jshint/bin/jshint hello.js"
   },  
   "devDependencies": {
